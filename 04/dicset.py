@@ -54,7 +54,7 @@ if __name__ == "__main__":
     d = {"name":"zym", "age":20}
     print(d["name"])
     print(d.get("age"))
-    print(d.get("locate", "null"))
+    print(d.get("locate", "null"))  # 集合中没有该元素，返回默认值
     
     s = {1, 2, 3}
     # print(s[1]) #本行出错
